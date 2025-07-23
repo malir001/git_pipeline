@@ -4,15 +4,10 @@
   "description": "A simple Node.js web server",
   "main": "server.js",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-},
-
-  /*"scripts": {
-    "start": "node server.js"
-  },*/
-
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "express": "^4.18.2"
   }
