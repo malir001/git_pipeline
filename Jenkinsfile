@@ -16,9 +16,9 @@ pipeline {
                 node --version
                 npm --version
                 
-                sh 'rm -rf node_modules dist' 
-                sh 'npm ci'
-                sh 'npm run build'
+                rm -rf node_modules dist
+                npm ci
+                npm run build
                 ls -la
                 '''
                
